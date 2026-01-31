@@ -1,5 +1,7 @@
 import express from "express";
 
+console.log("N8N_WEBHOOK_URL =", process.env.N8N_WEBHOOK_URL);
+
 const app = express();
 app.use(express.json());
 
